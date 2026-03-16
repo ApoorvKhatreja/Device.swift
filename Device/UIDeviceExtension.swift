@@ -71,9 +71,16 @@ public enum DeviceType: String, CaseIterable {
     case iPhone15ProMax
 
     case iPhone16
+    case iPhone16e
     case iPhone16Plus
     case iPhone16Pro
     case iPhone16ProMax
+
+    case iPhone17
+    case iPhone17e
+    case iPhone17Air
+    case iPhone17Pro
+    case iPhone17ProMax
 
     case iPodTouch1G
     case iPodTouch2G
@@ -182,9 +189,15 @@ public extension DeviceType {
         case .iPhone15Pro: return "iPhone 15 Pro"
         case .iPhone15ProMax: return "iPhone 15 Pro Max"
         case .iPhone16: return "iPhone 16"
+        case .iPhone16e: return "iPhone 16e"
         case .iPhone16Plus: return "iPhone 16 Plus"
         case .iPhone16Pro: return "iPhone 16 Pro"
         case .iPhone16ProMax: return "iPhone 16 Pro Max"
+        case .iPhone17: return "iPhone 17"
+        case .iPhone17e: return "iPhone 17e"
+        case .iPhone17Air: return "iPhone 17 Air"
+        case .iPhone17Pro: return "iPhone 17 Pro"
+        case .iPhone17ProMax: return "iPhone 17 Pro Max"
 
         case .iPodTouch1G: return "iPod Touch"
         case .iPodTouch2G: return "iPod Touch (2nd generation)"
@@ -273,9 +286,15 @@ public extension DeviceType {
         case .iPhone15Pro: return ["iPhone16,1"]
         case .iPhone15ProMax: return ["iPhone16,2"]
         case .iPhone16: return ["iPhone17,3"]
+        case .iPhone16e: return ["iPhone17,5"]
         case .iPhone16Plus: return ["iPhone17,4"]
         case .iPhone16Pro: return ["iPhone17,1"]
         case .iPhone16ProMax: return ["iPhone17,2"]
+        case .iPhone17: return ["iPhone18,3"]
+        case .iPhone17e: return ["iPhone18,5"]
+        case .iPhone17Air: return ["iPhone18,4"]
+        case .iPhone17Pro: return ["iPhone18,1"]
+        case .iPhone17ProMax: return ["iPhone18,2"]
 
         case .iPodTouch1G: return ["iPod1,1"]
         case .iPodTouch2G: return ["iPod2,1"]
